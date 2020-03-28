@@ -1,0 +1,80 @@
+body {
+  font-family: "Roboto", sans-serif;
+  
+}
+#navbar {
+background-color: red;
+}
+#searchbox{
+  width: 300px;
+  background-color: crimson;
+}
+.jumbotron-fluid{
+background-image: url("./images/B&W_bg.jpg");
+background-size: cover;
+background-position:bottom;
+
+}
+.box-container{
+  flex-wrap: wrap;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.box{
+  width: 220px;
+  height: 125px;
+  border: solid;
+  border-width:7px;
+  border-color:white;
+  box-shadow: 10px 10px 8px #888888;
+  margin-top: -75px;
+  
+}
+.box1{
+  background-color: #35D3B4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+
+}
+.box2{
+  background: #1B2191;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+}
+.box3{
+  background:#D822EE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+
+}
+.container-image{
+  display: flex;
+  flex-wrap: wrap;
+}
+.peakImg{
+  height: 250px;
+  width:350px ;
+}
+.jumbotronText{
+  color: white;
+}
+.footer-container{
+  background-color: rgb(80, 76, 76);
+  color:white;
+  display: flex; 
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position:static;bottom:0px;
+  margin: 0px;
+}
